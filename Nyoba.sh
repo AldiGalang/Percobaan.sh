@@ -6,7 +6,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 echo -e "✅ System updated!\n"
 
 echo -e "🔧 Installing essential tools..."
-sudo apt install -y pciutils lsof curl nvtop btop jq screen
+sudo apt install -y pciutils lsof curl nvtop btop jq screen sudo
 echo -e "✅ Tools installed!\n"
 
 echo -e "🚀 Clone Monitory..."
