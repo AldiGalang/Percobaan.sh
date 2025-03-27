@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo -e "\n🔄 Updating system..."
-sudo apt update && sudo apt upgrade -y
-sudo apt-get update && sudo apt-get upgrade -y
+sudo apt update && sudo apt upgrade -y -o Dpkg::Options::="--force-confold"
+sudo apt-get update && sudo apt-get upgrade -y -o Dpkg::Options::="--force-confold"
 echo -e "✅ System updated!\n"
 
 echo -e "🔧 Installing essential tools..."
