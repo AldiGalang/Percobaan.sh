@@ -7,11 +7,7 @@ echo -e "✅ System updated!\n"
 
 echo -e "🔧 Installing essential tools..."
 sudo apt install -y pciutils lsof curl nvtop btop jq screen sudo
-echo -e "✅ Tools installed!\n"
-
-echo -e "🚀 Clone Monitory..."
-git clone https://github.com/AldiGalang/Percobaan.sh/blob/main/monitory.sh.git
-echo -e "✅ Monitory Clone Completed..."
+echo -e "✅ Tools installed... "
 
 echo -e "🚀 Installing CUDA Toolkit..."
 wget -q --show-progress https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
