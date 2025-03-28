@@ -6,7 +6,7 @@ sudo apt-get update && sudo apt-get upgrade -y -o Dpkg::Options::="--force-confo
 echo -e "✅ System updated!\n"
 
 echo -e "🔧 Installing essential tools..."
-sudo apt install -y pciutils lsof curl nvtop btop jq screen sudo
+sudo apt install -y pciutils lsof curl nvtop btop jq screen sudo figlet
 echo -e "✅ Tools installed... "
 
 echo -e "🚀 Installing CUDA Toolkit..."
@@ -58,3 +58,5 @@ echo -e "✅ GaiaNet is now running!\n"
 echo -e "📊 Displaying node info..."
 gaianet info
 echo -e "🎉 Installation complete! Your GaiaNet node is live! 🚀\n"
+
+figlet "You can Join optimize.gaia.domains"
